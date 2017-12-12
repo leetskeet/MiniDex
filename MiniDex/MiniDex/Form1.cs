@@ -27,7 +27,6 @@ namespace MiniDex
                 this.Hide();
                 DexEntry dex = new MiniDex.DexEntry(usrInput);   
                 dex.ShowDialog();
-
             }
             else
             {

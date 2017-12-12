@@ -76,6 +76,7 @@
             this.Controls.Add(this.userEntry);
             this.Controls.Add(this.userLabel);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "MiniDex";
             this.ResumeLayout(false);

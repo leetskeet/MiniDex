@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DexEntry));
             this.pokeLabel = new System.Windows.Forms.Label();
             this.menuButton = new System.Windows.Forms.Button();
             this.dexPic = new System.Windows.Forms.PictureBox();
@@ -37,9 +38,10 @@
             // pokeLabel
             // 
             this.pokeLabel.AutoSize = true;
-            this.pokeLabel.Location = new System.Drawing.Point(140, 193);
+            this.pokeLabel.Font = new System.Drawing.Font("Lucida Sans Unicode", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pokeLabel.Location = new System.Drawing.Point(12, 197);
             this.pokeLabel.Name = "pokeLabel";
-            this.pokeLabel.Size = new System.Drawing.Size(0, 13);
+            this.pokeLabel.Size = new System.Drawing.Size(0, 23);
             this.pokeLabel.TabIndex = 1;
             // 
             // menuButton
@@ -72,6 +74,7 @@
             this.Controls.Add(this.menuButton);
             this.Controls.Add(this.pokeLabel);
             this.Controls.Add(this.dexPic);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DexEntry";
             this.Text = "DexEntry";
             ((System.ComponentModel.ISupportInitialize)(this.dexPic)).EndInit();

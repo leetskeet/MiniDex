@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Error));
             this.errorLabel = new System.Windows.Forms.Label();
             this.returnButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -62,6 +63,7 @@
             this.ClientSize = new System.Drawing.Size(323, 119);
             this.Controls.Add(this.returnButton);
             this.Controls.Add(this.errorLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Error";
             this.Text = "Error";
             this.ResumeLayout(false);
