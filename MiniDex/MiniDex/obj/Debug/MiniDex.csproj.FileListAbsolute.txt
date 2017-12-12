@@ -8,3 +8,14 @@ d:\tboat\documents\visual studio 2015\Projects\MiniDex\MiniDex\obj\Debug\MiniDex
 d:\tboat\documents\visual studio 2015\Projects\MiniDex\MiniDex\obj\Debug\MiniDex.pdb
 d:\tboat\documents\visual studio 2015\Projects\MiniDex\MiniDex\obj\Debug\MiniDex.DexEntry.resources
 d:\tboat\documents\visual studio 2015\Projects\MiniDex\MiniDex\obj\Debug\MiniDex.Error.resources
+C:\Users\tboatright\source\repos\MiniDex\MiniDex\bin\Debug\MiniDex.exe.config
+C:\Users\tboatright\source\repos\MiniDex\MiniDex\bin\Debug\MiniDex.exe
+C:\Users\tboatright\source\repos\MiniDex\MiniDex\bin\Debug\MiniDex.pdb
+C:\Users\tboatright\source\repos\MiniDex\MiniDex\obj\Debug\MiniDex.DexEntry.resources
+C:\Users\tboatright\source\repos\MiniDex\MiniDex\obj\Debug\MiniDex.Error.resources
+C:\Users\tboatright\source\repos\MiniDex\MiniDex\obj\Debug\MiniDex.MainForm.resources
+C:\Users\tboatright\source\repos\MiniDex\MiniDex\obj\Debug\MiniDex.Properties.Resources.resources
+C:\Users\tboatright\source\repos\MiniDex\MiniDex\obj\Debug\MiniDex.csproj.GenerateResource.Cache
+C:\Users\tboatright\source\repos\MiniDex\MiniDex\obj\Debug\MiniDex.csproj.CoreCompileInputs.cache
+C:\Users\tboatright\source\repos\MiniDex\MiniDex\obj\Debug\MiniDex.exe
+C:\Users\tboatright\source\repos\MiniDex\MiniDex\obj\Debug\MiniDex.pdb

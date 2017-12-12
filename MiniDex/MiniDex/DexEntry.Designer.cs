@@ -39,7 +39,7 @@
             // 
             this.pokeLabel.AutoSize = true;
             this.pokeLabel.Font = new System.Drawing.Font("Lucida Sans Unicode", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pokeLabel.Location = new System.Drawing.Point(12, 197);
+            this.pokeLabel.Location = new System.Drawing.Point(93, 193);
             this.pokeLabel.Name = "pokeLabel";
             this.pokeLabel.Size = new System.Drawing.Size(0, 23);
             this.pokeLabel.TabIndex = 1;
@@ -76,6 +76,7 @@
             this.Controls.Add(this.dexPic);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DexEntry";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DexEntry";
             ((System.ComponentModel.ISupportInitialize)(this.dexPic)).EndInit();
             this.ResumeLayout(false);

@@ -20,7 +20,7 @@ namespace MiniDex
         private void returnButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MainForm main = new MiniDex.MainForm();
+            MainForm main = new MainForm();
             main.ShowDialog();
         }
     }

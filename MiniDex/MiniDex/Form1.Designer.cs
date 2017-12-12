@@ -32,6 +32,8 @@
             this.userLabel = new System.Windows.Forms.Label();
             this.userEntry = new System.Windows.Forms.TextBox();
             this.submitButton = new System.Windows.Forms.Button();
+            this.pokeDisplay = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pokeDisplay)).BeginInit();
             this.SuspendLayout();
             // 
             // userLabel
@@ -65,6 +67,15 @@
             this.submitButton.UseVisualStyleBackColor = false;
             this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
+            // pokeDisplay
+            // 
+            this.pokeDisplay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pokeDisplay.Location = new System.Drawing.Point(139, 209);
+            this.pokeDisplay.Name = "pokeDisplay";
+            this.pokeDisplay.Size = new System.Drawing.Size(123, 113);
+            this.pokeDisplay.TabIndex = 3;
+            this.pokeDisplay.TabStop = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -72,13 +83,16 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(440, 562);
+            this.Controls.Add(this.pokeDisplay);
             this.Controls.Add(this.submitButton);
             this.Controls.Add(this.userEntry);
             this.Controls.Add(this.userLabel);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MiniDex";
+            ((System.ComponentModel.ISupportInitialize)(this.pokeDisplay)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -89,6 +103,7 @@
         private System.Windows.Forms.Label userLabel;
         private System.Windows.Forms.TextBox userEntry;
         private System.Windows.Forms.Button submitButton;
+        private System.Windows.Forms.PictureBox pokeDisplay;
     }
 }
 

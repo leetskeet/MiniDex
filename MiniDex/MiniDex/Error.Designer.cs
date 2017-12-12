@@ -65,6 +65,7 @@
             this.Controls.Add(this.errorLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Error";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Error";
             this.ResumeLayout(false);
             this.PerformLayout();
