@@ -12,26 +12,22 @@ namespace MiniDex
 {
     public partial class DexEntry : Form
     {
-        public int poke { get; set; }
+        
         enum Pokemon
         {
             BULBA = 1, IVY, VENU, CHAR, CHARME, CHARI, SQUI, WAR, BLAST
         }
 
-        public DexEntry()
+        public DexEntry(int poke)
         {
             InitializeComponent();
             string[] pokeName = { "Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise" };
-
-            const int LIMIT = 10;
-
-            while(poke < LIMIT)
-            {
+            
                 switch((Pokemon)poke)
                 {
                     case Pokemon.BULBA:
                         pokeLabel.Text = pokeName[0];
-                        dexPic.Image = Properties.Resources.blast;
+                        dexPic.Image = Properties.Resources.bulba;
                         break;
                     case Pokemon.IVY:
                         pokeLabel.Text = pokeName[1];
@@ -67,7 +63,7 @@ namespace MiniDex
                         break;
 
                 }
-            }
+            
 
         }
 

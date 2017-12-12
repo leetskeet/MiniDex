@@ -25,8 +25,7 @@ namespace MiniDex
             if (usrInput > 0 && usrInput < 10)
             {
                 this.Hide();
-                DexEntry dex = new MiniDex.DexEntry();
-                dex.poke = usrInput;    
+                DexEntry dex = new MiniDex.DexEntry(usrInput);   
                 dex.ShowDialog();
 
             }
